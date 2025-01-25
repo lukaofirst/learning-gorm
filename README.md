@@ -1,50 +1,51 @@
-<div align="center">
-  <h1>Learning GORM</h1>
-</div>
+# Learning GORM 📚
 
-This project demonstrates various concepts and functionalities of the GORM package in Go
+## Overview 🌟
 
--   **Basics**
+This project demonstrates various concepts and functionalities of the GORM package in Go.
 
-    -   It's the ORM (Object Relational Mapping) for Go
-    -   Used to query and execute commands to a relational database
-    -   It's the equivalent of Entity Framework Core from .NET
-    -   Packages
+## GORM Basics 🛠️
 
-        -   GORM package `go get -u gorm.io/gorm`
-        -   SQL Server `gorm.io/driver/sqlserver`
-        -   SQLite `gorm.io/driver/sqlite`
-        -   PostgreSQL `gorm.io/driver/postgres`
-        -   MySQL `gorm.io/driver/mysql`
+GORM is an ORM (Object Relational Mapping) for Go, used to query and execute commands to a relational database. It's the equivalent of Entity Framework Core from .NET.
 
--   **CRUD Operations**
+### Key Packages 📦
 
-    -   Create
-    -   Read
-    -   Update
-    -   Delete
+-   **GORM package**: `go get -u gorm.io/gorm`
+-   **SQL Server**: `go get -u gorm.io/driver/sqlserver`
+-   **SQLite**: `go get -u gorm.io/driver/sqlite`
+-   **PostgreSQL**: `go get -u gorm.io/driver/postgres`
+-   **MySQL**: `go get -u gorm.io/driver/mysql`
 
--   **Relationships**
+## CRUD Operations 🔄
 
-    -   One-to-One
-    -   One-to-Many
-    -   Many-to-Many
+-   **Create**: Add new records to the database.
+-   **Read**: Retrieve records from the database.
+-   **Update**: Modify existing records in the database.
+-   **Delete**: Remove records from the database.
 
--   **Transactions**
+## Relationships 🔗
 
-    -   Executing database operations within a transaction
+-   **One-to-One**: A single record in one table is related to a single record in another table.
+-   **One-to-Many**: A single record in one table is related to multiple records in another table.
+-   **Many-to-Many**: Multiple records in one table are related to multiple records in another table.
 
--   **Raw SQL and ToSQL**
+## Transactions 🔒
 
-    -   Executing raw SQL queries and generating SQL from GORM queries
+Executing database operations within a transaction to ensure data integrity.
 
--   **Views**
+## Raw SQL and ToSQL 📝
 
-    -   Creating and querying database views
+-   **Raw SQL**: Executing raw SQL queries directly.
+-   **ToSQL**: Generating SQL from GORM queries.
 
--   **Stored Procedures**
+## Views 👁️
 
-    -   Creating and executing stored procedures
+Creating and querying database views to simplify complex queries.
 
--   **Paging, Filtering, Searching, and Ordering**
-    -   Implementing pagination, filtering, searching, and ordering in queries
+## Stored Procedures 📜
+
+Creating and executing stored procedures for reusable database logic.
+
+## Paging, Filtering, Searching, and Ordering 🔍
+
+Implementing pagination, filtering, searching, and ordering in queries to manage large datasets efficiently.
